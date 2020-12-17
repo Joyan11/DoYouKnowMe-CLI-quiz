@@ -9,7 +9,7 @@ const quizQuestions = [{
   question: 'What is my favorite sport? ',
   answer: 'football'
 }, {
-  question: 'What is my football team? ',
+  question: 'What is my favorite football team? ',
   answer: 'manchester united'
 }, {
   question: 'where do i live? ',
