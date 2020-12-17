@@ -28,7 +28,7 @@ const welcome = () => {
   console.log(`Welcome ${chalk.bold(yourName)}, Let's see how well do you know joyan `);
   const letsBegin = readlineSync.question(`Type ${chalk.bold('start')} to begin the quiz `);
   console.log(`      `)
-  if (letsBegin === 'start') {
+  if (letsBegin.toLowerCase() === 'start') {
     for (let i = 0; i < quizQuestions.length; i++) {
       start(quizQuestions[i].question, quizQuestions[i].answer);
     }
